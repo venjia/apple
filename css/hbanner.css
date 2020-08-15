@@ -54,5 +54,9 @@
     .hbanner{
         flex-direction: column;
     }
+    .hbanner .banner:nth-child(1),.hbanner .banner:nth-child(2){
+	width: calc(100% - 20px);
+	margin: 10px;
+}
     
 }
