@@ -1,0 +1,54 @@
+.hbanner{
+    display: flex;
+}
+.hbanenr .banner{
+    flex: 1;
+}
+.hbanner h1{
+	color: #111;
+	font-size: 36px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.hbanner h2{
+	font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 4px;
+    color: #111;
+}
+.hbanner .banner .link a{
+	color: #0070c9;
+	font-size: 17px;
+    line-height: 1.23543;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.hbanner .banner:nth-child(1){
+    margin: 10px 5px 10px 10px;
+    background-image: url(../img/hbanner1.jpg);
+    background-color: #fbfbfd;
+    background-size:100% auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.hbanner .banner:nth-child(2){
+    margin: 10px 10px 10px 5px;
+    background-image: url(../img/hbanner2.jpg);
+    background-color:#f1f1f3;
+    background-size:100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width:768px){
+    .hbanner{
+        flex-direction: column;
+    }
+}
