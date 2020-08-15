@@ -48,7 +48,11 @@
 }
 
 @media only screen and (max-width:768px){
+    .banner{
+	height:445px;
+}
     .hbanner{
         flex-direction: column;
     }
+    
 }
